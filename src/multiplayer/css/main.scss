@@ -1,0 +1,56 @@
+#state_MainMenuState .mainContainer .buttons .multiplayerButton {
+    border-radius: 0 calc(4.8px * var(--ui-scale)) calc(4.8px * var(--ui-scale)) 0;
+    position: absolute;
+    background: #0002;
+    width: calc(45px * var(--ui-scale));
+    transition: width 0.12s ease-in-out, transform 0.12s ease-in-out, background-color 0.12s ease-in-out, left 0.12s ease-in-out;
+    grid-row: 1/2;
+    grid-column: 1/1;
+}
+
+#state_MainMenuState .mainContainer .buttons .multiplayerButton:hover {
+    width: calc(50px * var(--ui-scale));
+}
+
+#state_MainMenuState .mainContainer .buttons .multiplayerButton.pressed {
+    background: #0004;
+}
+
+#state_MainMenuState .mainContainer .buttons .multiplayerButton.play {
+    height: calc(54px * var(--ui-scale));
+}
+
+#state_MainMenuState .mainContainer .buttons .multiplayerButton.play.shrink {
+    transform: scale(0.98);
+}
+
+#state_MainMenuState .mainContainer .buttons .multiplayerButton.continue {
+    top: calc(10px * var(--ui-scale));
+    height: calc(82px * var(--ui-scale));
+}
+
+#state_MainMenuState .mainContainer .buttons .multiplayerButton.continue.shrink {
+    top: calc(11px * var(--ui-scale));
+    width: calc(44.75px * var(--ui-scale));
+    height: calc(81px * var(--ui-scale));
+}
+
+#stats_MainMenuState .mainContainer .buttons .multiplayerButton:active {
+    background: #000;
+    transition: background 0s ease-in-out;
+}
+
+#state_MainMenuState .mainContainer .buttons .multiplayerIcon {
+    transition: transform 0.12s ease-in-out;
+    position: relative;
+    width: calc(39px * var(--ui-scale));
+    height: calc(39px * var(--ui-scale));
+}
+
+#state_MainMenuState .mainContainer .buttons .multiplayerButton.shrink > .multiplayerIcon {
+    transform: scale(0.98);
+}
+
+#state_MainMenuState .mainContainer .buttons .playButton, #state_MainMenuState .mainContainer .buttons .continueButton {
+    padding: calc(15px * var(--ui-scale)) calc(20px * var(--ui-scale)) calc(15px * var(--ui-scale)) 0;
+}

@@ -1,0 +1,8 @@
+multiplayer:
+  mpGame:
+    title: Mehrspieler
+    desc: Willst du ein neues Spiel erstellen oder einene vorhandenen beitreten?
+dialogs:
+  buttons:
+    hostMp: Erstellen
+    joinMp: Beitreten

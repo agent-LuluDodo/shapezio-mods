@@ -1,0 +1,10 @@
+{
+    "entry": "main.js",
+    "id": "multiplayer",
+    "version": "1.0.0",
+    "name": "Multiplayer",
+    "author": "agent_LuluDodo",
+    "description": "Allows you to play coop with your friends.",
+    "website": "",
+    "settings": {}
+}

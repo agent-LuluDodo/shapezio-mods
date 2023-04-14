@@ -1,0 +1,8 @@
+multiplayer:
+  mpGame:
+    title: Multiplayer
+    desc: Do you want to host a new game or join an existing one?
+dialogs:
+  buttons:
+    hostMp: Host
+    joinMp: Join

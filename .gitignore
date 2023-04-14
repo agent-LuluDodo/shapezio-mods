@@ -1,0 +1,14 @@
+node_modules
+mods
+shapez
+gulp
+build
+.editorconfig
+.eslintignore
+.eslintrc.yml
+.prettierrc.yaml
+.shapez
+.yamllint
+package.json
+tslint.json
+yarn.lock
